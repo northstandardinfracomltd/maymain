@@ -1071,6 +1071,28 @@ article:nth-child(even) {
   box-shadow: 0 0 0px 4px #008eff38;
 }
 
+
+
+.card1fluo {
+  background-color: rgb(124 255 164 / 13%) !important;
+  border: solid 1px #7BFFA4 !important;
+  border-radius: 12px !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  height: 78px;
+  display: flex;
+  transition: transform 0.2s;
+  padding-top: 23px;
+  padding-left: 23px;
+}
+
+.card1fluo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 0px 4px #008eff38;
+}
+
+
+
 .card1pink {
   background-color: rgb(153 117 211 / 15%) !important;
   border: solid 1px #9975d3 !important;
