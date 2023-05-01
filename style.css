@@ -4365,8 +4365,8 @@ button[type="submit"]:hover {
   margin-left: auto;
   padding-top: 0px !important;
   padding-bottom: 15px !important;
-  margin-bottom: -90px;
-  margin-top: 0px;
+    margin-bottom: -50px;
+    margin-top: -6px;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -5413,7 +5413,7 @@ input[type="text"]:focus {
   width: 48px;
   margin-bottom: -20px;
   margin-left: -5px;
-  margin-top: 7px;
+  margin-top: -15px;
   z-index: 2;
 }
 
