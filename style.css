@@ -4363,10 +4363,10 @@ button[type="submit"]:hover {
   width: 600px !important;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 15px !important;
+  padding-top: 0px !important;
   padding-bottom: 15px !important;
   margin-bottom: -90px;
-  margin-top: 20px;
+  margin-top: 0px;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
