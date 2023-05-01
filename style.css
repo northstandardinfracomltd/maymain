@@ -1093,6 +1093,46 @@ article:nth-child(even) {
 
 
 
+.card1desert {
+  background-color: rgb(255 245 123 / 11%) !important;
+  border: solid 1px #FFF57B !important;
+  border-radius: 12px !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  height: 78px;
+  display: flex;
+  transition: transform 0.2s;
+  padding-top: 23px;
+  padding-left: 23px;
+}
+
+.card1desert:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 0px 4px #008eff38;
+}
+
+
+
+.card1floyd {
+  background-color: rgb(238 157 255 / 12%) !important;
+  border: solid 1px #ED9EFF !important;
+  border-radius: 12px !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  height: 78px;
+  display: flex;
+  transition: transform 0.2s;
+  padding-top: 23px;
+  padding-left: 23px;
+}
+
+.card1floyd:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 0px 4px #008eff38;
+}
+
+
+
 .card1pink {
   background-color: rgb(153 117 211 / 15%) !important;
   border: solid 1px #9975d3 !important;
