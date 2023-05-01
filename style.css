@@ -2600,7 +2600,7 @@ max-width: 360px;
   width: 361px !important;
   margin-left: 0px;
     padding-bottom: 11px !important;
-
+    z-index: 4;
 }
 
 
@@ -4364,9 +4364,9 @@ button[type="submit"]:hover {
   margin-right: auto;
   margin-left: auto;
   padding-top: 0px !important;
-  padding-bottom: 15px !important;
-    margin-bottom: -50px;
-    margin-top: -6px;
+padding-bottom: 15px !important;
+    margin-bottom: -27px;
+ margin-top: -30px;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -5410,9 +5410,9 @@ input[type="text"]:focus {
 }
 
 .avatar-arrow {
-  width: 48px;
+  width: 62px;
   margin-bottom: -20px;
-  margin-left: -5px;
+  margin-left: 9px;
   margin-top: -15px;
   z-index: 2;
 }
@@ -5657,9 +5657,10 @@ input[type="text"]:focus {
   font-size: 13px !important;
   cursor: pointer !important;
   font-family: "genie13" !important;
-  color: #ffc6e2 !important;
+  color: #ec775d !important;
   margin-top: 4px;
   margin-left: -7px;
+      padding-top: 27px;
 }
 
 .quantum3-4 {
