@@ -4980,8 +4980,9 @@ font-family: "Saoecom2font" !important;
     color: #adbac7 !important;
   margin-top: 29px;
   margin-bottom: 8px;
-  height: 41px;
+  height: 42px;
   transition: transform 0s;
+  text-align: center;
 }
 
 input::placeholder {
@@ -5006,8 +5007,10 @@ font-family: "Saoecom2font" !important;
     color: #adbac7 !important;
   margin-top: 29px;
   margin-bottom: 8px;
-  height: 41px;
+  height: 42px;
   transition: transform 0s;
+    text-align: center;
+
 }
 
 .nsi-engine:focus {
@@ -5024,8 +5027,10 @@ font-family: "Saoecom2font" !important;
     color: #adbac7 !important;
   margin-top: 29px;
   margin-bottom: 8px;
-  height: 41px;
+  height: 42px;
   transition: transform 0s;
+    text-align: center;
+
 }
 
 .nsi-engine:placeholder {
@@ -5034,6 +5039,7 @@ font-family: "Saoecom2font" !important;
   font-size: 14px !important;
   letter-spacing: 1 !important;
   color: yellow !important;
+    text-align: center;
 }
 
 @media (min-width: 100px) and (max-width: 819px) {
