@@ -4430,22 +4430,7 @@ padding-bottom: 15px !important;
 @media (min-width: 100px) and (max-width: 819px) {
   
 .engine93 {
-  background: transparent;
-  width: 100% !important;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 15px !important;
-  padding-bottom: 15px !important;
-  margin-bottom: -5px;
-  margin-top: 20px;
-  border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border: 0px transparent solid;
-  display: flex;
-  flex-flow: row wrap;
-  text-align: center;
-  justify-content: center;
+  display: none;
 }  
 }
 
@@ -5807,7 +5792,7 @@ margin-top: 37px;
 
 .saasgeniecustomers {
   width: 100% !important;
-  display: flex;
+  display: block;
   justify-content: center;
   margin: 15px 0;
   border-radius: 12px;
@@ -5817,8 +5802,13 @@ margin-top: 37px;
   margin-left: auto;
   margin-right: auto;
   margin-top: -20px;
+  text-align: center;
 }
 
+
+
+  
+  
 .geniecustomers {
   width: 93% !important;
   margin-left: auto;
@@ -5868,13 +5858,82 @@ margin-top: 37px;
 @media (min-width: 100px) and (max-width: 819px) {
   
 .geniecustomers {
+  display: none !important;
+}    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) {
+  
+  
+.geniecustomersmobil {
+  display: none !important;
+}
+  
+}
+
+
+
+@media (min-width: 820px) and (max-width: 1200px) and (orientation: landscape) {
+  
+  
+.geniecustomersmobil {
+  display: none !important;
+}
+  
+}
+
+
+
+@media (min-width: 820px) and (max-width: 1166px) {
+  
+  
+.geniecustomersmobil {
+  display: none !important;
+}
+}
+
+
+@media (min-width: 781px) and (max-width: 767px) {
+  
+  
+.geniecustomersmobil {
+  display: none !important;
+}
+}
+
+
+@media (min-width: 100px) and (max-width: 819px) {
+  
+.geniecustomersmobil {
   width: 93% !important;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -10px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }    
 }
+
+
+
+
+
+
+
+
+
 
 .targetintitate {
   width: 90% !important;
