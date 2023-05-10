@@ -5406,7 +5406,7 @@ input[type="text"]:focus {
   margin-left: 9px;
   margin-top: -15px;
   z-index: 2;
-    opacity: 0.3 !important;
+    opacity: 1 !important;
 }
 
 .parent-explain {
@@ -5649,11 +5649,11 @@ input[type="text"]:focus {
   font-size: 13px !important;
   cursor: pointer !important;
   font-family: "genie13" !important;
-  color: #ACBAC7 !important;
+  color: #fa8970 !important;
   margin-top: 4px;
   margin-left: -7px;
       padding-top: 34px;
-  opacity: 0.3 !important;
+  opacity: 1 !important;
 }
 
 .quantum3-4 {
