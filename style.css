@@ -2478,7 +2478,7 @@ purpleblockswww2001 {
   font-size: 16px !important;
   height: 40px !important;
   padding-top: 8.5px !important;
-  padding-left: 1px !important;
+  padding-left: 0px !important;
   padding-right: 14px !important;
   margin-left: -5px;
   outline: none !important;
@@ -6923,13 +6923,13 @@ margin-top: 37px;
   justify-content: center !important;
   margin: 15px 0 !important;
   border-radius: 0px !important;
-  background: transparent !important;
+  background: transparent;
   cursor: pointer !important;
   margin-right: 8px !important;
   height: 200px !important;
   vertical-align: middle !important;
-  margin-bottom: -10px !important;
-    margin-top: -10px !important;
+  margin-bottom: -10px;
+  margin-top: -10px ;
 }  
 }
 
