@@ -3,9 +3,11 @@
   <html translate="no">
     <head>
       <!-- 
-    This is the main Handlebars template for the site 
-    - When the user visits the homepage or submits a choice the app calls the endpoints in server.js
-    - The server script passes data in here and the Handlebars code builds it into the HTML page
+    Always bet on yourself, you deserve your own full custom and on-demand SaaS. Duo with us ♥ !
+    Join us ! SaaSduo hire junior to senior Software Engineers
+    Twitter @saasduo
+    North Standard Infracom 13344127 Ltd
+    London, UK
   -->
       <meta name="google" content="notranslate" />
       <meta charset="utf-8" />
@@ -14,7 +16,7 @@
 
       <title>SaaSduo — The loved place where software are created</title>
 
-      <!-- Meta tags for SEO and social sharing -->
+      <!-- SaaSduo SEO Meta tags -->
       <link rel="canonical" href="{{seo.url}}" />
       <meta name="description" content="{{seo.description}}" />
       <meta property="og:title" content="{{seo.title}}" />
@@ -24,35 +26,32 @@
       <meta property="og:image" content="{{seo.image}}" />
       <meta name="twitter:card" content="summary" />
 
-      <!-- Import the webpage's stylesheet -->
+      <!-- SaaSduo Stylesheet -->
       <link rel="stylesheet" href="/style.css" />
 
       <!-- Show choice chart on poll submission -->
       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
       <script type="text/javascript">
         /*
-    The chart uses chart.js - try tweaking the config!
-    https://www.chartjs.org/docs/3.0.2/charts/doughnut.html
-    
-    We pass the choices and picks arrays from the page when the server script returns them
+    Stage
     */
         function showChart(choices, picks) {
-          // Get the page element to show the chart inside
+          // Stage1
           var ctx = document.getElementById("myChart");
 
-          // Set up the chart colors
+          // Stage2
           var colors = ["#05DA84", "#E6E656", "#E5AED6"];
           var border = "#ffffff";
 
-          // Make sure we have some votes–if not show an empty chart
+          // Stage3
           if (picks.reduce((a, b) => a + b, 0) < 1) {
-            picks = ["1e-10"]; // use a near zero value so that the doughnut displays
+            picks = ["1e-10"]; // Stage4
             choices = ["No votes! Reload and vote again."];
-            colors = ["#00000000"]; // we'll show an empty doughnut shape
+            colors = ["#00000000"]; // Stage5
             border = ["#000000"];
           }
 
-          // Build the chart in the page element
+          // Stage5
           var myLineChart = new Chart(ctx, {
             type: "doughnut",
             data: {
@@ -89,7 +88,7 @@
 
     <body>
       <!--
-      BODY SAOECOM ONEPAGE
+      Encrypt
     -->
       <div class="ambiant-starship">
 
@@ -570,11 +569,11 @@ Ein paar Beispiele sind immer gut, hier sind die neuesten SaaS, die wir für Kun
               <li>
                 <div class="moduleitem">
                   <div class="moduleitemcol1">
-                    <p class="mod-about">IA-Vorhersage</p>
+                    <p class="mod-about">IA-Logik und -System</p>
                   </div>
                   <div class="moduleitemcol2">
                     <p class="mod-usage">Automations</p>
-                    <p class="mod-price">£0.07 /usage</p>
+                    <p class="mod-price">£0.04 /usage</p>
                   </div>
                   <div class="moduleitemcol3">
                     <a href="/login" target="_blank"
@@ -586,11 +585,11 @@ Ein paar Beispiele sind immer gut, hier sind die neuesten SaaS, die wir für Kun
               <li>
                 <div class="moduleitem">
                   <div class="moduleitemcol1">
-                    <p class="mod-about">Data-Migration</p>
+                    <p class="mod-about">Präsentationswebsite</p>
                   </div>
                   <div class="moduleitemcol2">
-                    <p class="mod-usage">Transfers</p>
-                    <p class="mod-price">£0.01 /usage</p>
+                    <p class="mod-usage">Marketing</p>
+                    <p class="mod-price">£0.04 /usage</p>
                   </div>
                   <div class="moduleitemcol3">
                     <a href="/login" target="_blank"
@@ -720,7 +719,7 @@ Ein paar Beispiele sind immer gut, hier sind die neuesten SaaS, die wir für Kun
   <div class="left-footer">
         <a href="/terms" target="_blank"><p class="catapulttxt">Terms</p></a>                            
     <a href="/privacy" target="_blank"><p class="catapulttxt">Privacy (Updated 08/2022)</p></a>  
-<a href="https://about.saoecom.com/" target="_blank"><p class="catapulttxt">© 2023 North Standard Infracom Ltd 71-75 Shelton Street London WC2H 9JQ</p></a>   
+<a href="/terms" target="_blank"><p class="catapulttxt">© 2023 North Standard Infracom Ltd 71-75 Shelton Street London WC2H 9JQ</p></a>   
                           
 
 </div> 
@@ -746,7 +745,7 @@ Ein paar Beispiele sind immer gut, hier sind die neuesten SaaS, die wir für Kun
       <nav class="main-nav">
         <div class="nav-parent">
           <div class="nav-left">
-            <h1 class="logo" href="https://whereby.com/saoecom-onboarding" />
+            <h1 class="logo" href="https://saasduo.com/" />
             <img
               class="navlogo"
               src="https://cdn.glitch.global/9d75250c-7972-4ed1-930d-d52d6a129103/saasduo%20web.svg?v=1681834269599"
