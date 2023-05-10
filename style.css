@@ -6974,8 +6974,18 @@ margin-top: 37px;
   
 .stayactive {
   background: rgb(30 52 98) !important;
-  height: 220px !important;
   margin-top: 30px !important;
+  
+
+  width: 100% !important;
+  justify-content: center;
+  margin: 15px 0;
+  border-radius: 0px;
+  cursor: pointer;
+  margin-right: 8px;
+  height: 220px !important;
+  vertical-align: middle;
+  margin-bottom: -10px !important;
 }  
 }
 
